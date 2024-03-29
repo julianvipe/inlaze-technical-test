@@ -67,7 +67,7 @@ export async function postFavoriteMovie(mediaId:number) {
 })
 .then(response => {
     console.log('Favorite added:', response.data);
-    alert("Agregado a favoritos");
+    alert(response.data.status_message);
 })
 .catch(error => {
     console.error('Error adding favorite:', error);
