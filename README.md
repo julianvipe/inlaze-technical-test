@@ -74,4 +74,11 @@ El codigo esta distribuido entre las siguientes carpetas.
 - **Interfaces:** Estan las interfaces con las que se estructuran los datos que nos da la API para ser utilizados en el aplicativo.
 - **Pages:** Se encuentra las paginas utilizadas en el aplicativo.
 
+## Desafios superados
+
+De primeras siempre enfrentarse a un API que no se conoce representa un obstaculo, pero ya entendiendo como funciona y los datos que nos da, se facilita mucho el trabajo.
+
+Tambien ayuda mucho el uso de interfaces que en este caso los genere con una herramienta quicktype el cual ya con el response del API me genero el interface, asi que la implementación y la estructuración de datos fue mucho mas facil.
+
+Otro inconveniente que me encontre, es que no entendia muy bien como hacer el post para agregar a favoritos de la API, asi que use chatGPT y este me arrojo la estructura de como debia hacer esa accion.
 
